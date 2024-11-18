@@ -63,6 +63,8 @@ class TV:
 
     def turnOff(self):
         self.__estado = False
+    def setMarca(self, marca):
+        self.__marca = marca
 
     @staticmethod
     def getNumTV():
